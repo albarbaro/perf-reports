@@ -1,0 +1,45 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-10T22:13:43.995Z",
+    "testRun": "k6-lab-only-1770761611",
+    "namespace": "albarbaro-load-test",
+    "testScript": "lab-only",
+    "durationMinutes": 15
+  },
+  "prometheus": {},
+  "postgres": {
+      "databases": null,
+      "activity": null,
+      "topQueriesByTime": null,
+      "topQueriesByCalls": null
+    },
+  "errors": [],
+  "k6Metrics": {
+        "http_req_duration": {
+          "avg": 17.099039,
+          "min": 7.416849,
+          "med": 7.651273,
+          "max": 36.228995,
+          "p(90)": 30.5134506,
+          "p(95)": 33.3712228
+        },
+        "http_reqs": {
+          "count": 3,
+          "rate": 31.495093174716207
+        },
+        "http_req_failed": {
+          "rate": 0,
+          "passes": 0,
+          "fails": 3
+        },
+        "vus": {
+          "value": 0,
+          "min": 0,
+          "max": 0
+        },
+        "iterations": {
+          "count": 1,
+          "rate": 10.49836439157207
+        }
+      }
+}
