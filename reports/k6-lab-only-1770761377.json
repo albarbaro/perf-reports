@@ -1,0 +1,28 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-10T22:09:49.338Z",
+    "testRun": "k6-lab-only-1770761377",
+    "namespace": "albarbaro-load-test",
+    "testScript": "lab-only",
+    "durationMinutes": 15
+  },
+  "prometheus": {},
+  "postgres": {
+      "databases": null,
+      "activity": null,
+      "topQueriesByTime": null,
+      "topQueriesByCalls": null
+    },
+  "errors": [],
+  "k6Metrics": {
+        "vus": {
+          "max": 0,
+          "value": 0,
+          "min": 0
+        },
+        "iterations": {
+          "count": 1,
+          "rate": 33.22482106772614
+        }
+      }
+}
