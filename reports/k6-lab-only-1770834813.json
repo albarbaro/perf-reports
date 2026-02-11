@@ -1,0 +1,106 @@
+{
+  "metadata": {
+    "timestamp": "2026-02-11T18:33:44.538Z",
+    "testRun": "k6-lab-only-1770834813",
+    "namespace": "albarbaro-load-test",
+    "testScript": "lab-only",
+    "pod": "backstage-rhdh-5b6dc4f9b7-w2nc5"
+  },
+  "prometheus": {
+    "memory": {
+      "resultType": "matrix",
+      "result": [
+        {
+          "metric": {
+            "__name__": "container_memory_working_set_bytes",
+            "container": "backstage-backend",
+            "endpoint": "https-metrics",
+            "id": "/kubepods.slice/kubepods-burstable.slice/kubepods-burstable-pod49914141_7c3e_4a34_9b6b_747bbb186131.slice/crio-8bb2557ebc9fa925f44ebfba35885c341f648f22dff1cdd96630a47caa17db48.scope",
+            "image": "quay.io/rhdh/rhdh-hub-rhel9@sha256:b74fae9591332cade97d995f791140148ea9a0932d95a20d7cfe153ab97165d4",
+            "instance": "10.241.0.4:10250",
+            "job": "kubelet",
+            "metrics_path": "/metrics/cadvisor",
+            "name": "k8s_backstage-backend_backstage-rhdh-5b6dc4f9b7-w2nc5_albarbaro-load-test_49914141-7c3e-4a34-9b6b-747bbb186131_0",
+            "namespace": "albarbaro-load-test",
+            "node": "10.241.0.4",
+            "pod": "backstage-rhdh-5b6dc4f9b7-w2nc5",
+            "prometheus": "openshift-monitoring/k8s",
+            "service": "kubelet"
+          },
+          "values": [
+            [
+              1770834524,
+              "770519040"
+            ],
+            [
+              1770834554,
+              "770469888"
+            ],
+            [
+              1770834584,
+              "770469888"
+            ],
+            [
+              1770834614,
+              "770469888"
+            ],
+            [
+              1770834644,
+              "770469888"
+            ],
+            [
+              1770834674,
+              "771198976"
+            ],
+            [
+              1770834704,
+              "770510848"
+            ],
+            [
+              1770834734,
+              "770519040"
+            ],
+            [
+              1770834764,
+              "770510848"
+            ],
+            [
+              1770834794,
+              "770506752"
+            ],
+            [
+              1770834824,
+              "770506752"
+            ]
+          ]
+        }
+      ],
+      "analysis": {}
+    }
+  },
+  "postgres": {
+    "databases": [
+      "backstage_plugin_adoption-insights",
+      "backstage_plugin_app",
+      "backstage_plugin_auth",
+      "backstage_plugin_catalog",
+      "backstage_plugin_dynamic-plugins-info",
+      "backstage_plugin_events",
+      "backstage_plugin_extensions",
+      "backstage_plugin_healthcheck",
+      "backstage_plugin_licensed-users-info",
+      "backstage_plugin_permission",
+      "backstage_plugin_proxy",
+      "backstage_plugin_scaffolder",
+      "backstage_plugin_scalprum",
+      "backstage_plugin_search",
+      "backstage_plugin_techdocs",
+      "backstage_plugin_translations",
+      "backstage_plugin_user-settings",
+      "keycloak",
+      "postgres",
+      "rhdh"
+    ]
+  },
+  "errors": []
+}
